@@ -8,5 +8,5 @@ export interface CinemaRoom {
   director: string;
   actors: Array<string>;
   hours: Array<string>;
-  room: number;
+  room?: number;
 }
