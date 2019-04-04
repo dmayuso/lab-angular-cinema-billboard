@@ -12,7 +12,7 @@ export class MoviesService {
     return MOVIES;
   }
 
-  getMovie(id) {
+  getMovie(id): CinemaRoom {
     return MOVIES.find(room => room.id === id);
   }
 
