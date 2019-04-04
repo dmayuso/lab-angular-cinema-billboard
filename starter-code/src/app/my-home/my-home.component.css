@@ -1,0 +1,8 @@
+.movies-container {
+  width: 200px;
+  display: flex;
+}
+
+.movie-item {
+  margin: 20px;
+}

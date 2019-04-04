@@ -1,7 +1,7 @@
 <div class="movies-container">
   <div *ngFor="let movie of movies" class="movie-item">
     <h3>{{ 'ROOM ' + movie.room }}</h3>
-    <img [src]="movie.poster">
+    <img [src]="movie.poster" [width]="150">
     <a [routerLink]="['/movie/' + movie.id]"> {{ movie.title }} </a>
   </div>
 </div>
