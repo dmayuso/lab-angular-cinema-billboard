@@ -4,7 +4,7 @@ import { CinemaRoom } from '../domain/cinema-room';
 
 
 @Injectable()
-export class MoviesServiceService {
+export class MoviesService {
 
   constructor() { }
 
